@@ -1,169 +1,206 @@
 <!DOCTYPE html>
 <head>
 	<link href="assets/styles/common.css?" rel="stylesheet">
-	<link href="assets/styles/jquery-ui.css" rel="stylesheet">
+	<link href="assets/styles/libs/font-awesome.css" rel="stylesheet">
+	<link href="assets/scripts/libs/malihu-custom-scrollbar-plugin-master/jquery.mCustomScrollbar.css" rel="stylesheet">
 </head>
 <body>
-	<header class="header">
-		<div class="header__logo"></div>
-		<div class="alert-banner"></div>
-		<div class="clearfix"></div>
-		<div class="header__title">
-			<div class="header__title-img"></div>
+	<section class="col">
+		<div class="main">
+			<div class="main__logo"></div>
+			<ul class="main__nav">
+				<li class="main__nav__item"><a href="javascript:void(0)"><i class="main__nav__item__icon fa-compass"></i></a><a href="javascript:void(0)" class="nav__item__title">Dashboard</a>
+				</li>
+				<li class="main__nav__item"><a href="javascript:void(0)"><i class="main__nav__item__icon fa-tasks"></i></a><a href="javascript:void(0)" class="nav__item__title">Work Orders</a>
+				</li>
+				<li class="main__nav__item"><a href="javascript:void(0)"><i class="main__nav__item__icon fa-copy"></i></a><a href="javascript:void(0)" class="nav__item__title">Certificates</a>
+				</li>
+				<li class="main__nav__item"><a href="javascript:void(0)"><i class="main__nav__item__icon fa-users"></i></a><a href="javascript:void(0)" class="nav__item__title">Accounts</a>
+				</li>
+				<li class="main__nav__item"><a href="javascript:void(0)"><i class="main__nav__item__icon fa-pie-chart"></i></a><a href="javascript:void(0)" class="nav__item__title">Analytics</a>
+				</li>
+				<li class="main__nav__item"><a href="javascript:void(0)"><i class="main__nav__item__icon fa-globe"></i></a><a href="javascript:void(0)" class="nav__item__title">Offices</a>
+				</li>
+			</ul>
 		</div>
-	</header>
-	<section>
-		<div class="container">
-			<div class="profile">
-				<h3 class="profile__title">Полное ФИО</h3>
-				<p class="profile__text">Андрей Копылов Михалыч</p>
-				<div class="clearfix"></div>
-				<h3 class="profile__title">Год рождения</h3>
-				<p class="profile__text">1995</p>
-				<div class="clearfix"></div>
-				<h3 class="profile__title">Место жительства</h3>
-				<p class="profile__text">г. Санкт-Петербург, Россия</p>
-				<div class="clearfix"></div>
-				<h3 class="profile__title">Скайп</h3>
-				<p class="profile__text">volypok17</p>
-				<div class="clearfix"></div>
-				<h3 class="profile__title">Почта</h3>
-				<p class="profile__text">andreykopylove@gmail.com</p>
-				<div class="clearfix"></div>
-			</div>
-			<div class="education">
-				<h3 class="education__title">Выпускник</h3><a href="javascript:void(0);" class="education__link">htmlacademy.ru</a>
-				<div class="education__radio">
-					<input type="radio" name="edu" id="yes" class="radio-button">
-					<label for="yes"></label>
-					<label for="yes">Да</label>
-					<input type="radio" name="edu" id="no" checked class="radio-button">
-					<label for="no"></label>
-					<label for="no">Нет</label>
-				</div>
-			</div>
-			<div class="clearfix"></div>
-			<div class="skills">
-				<h3 class="skills__title">Практические навыки</h3>
-				<p class="skills__text">Отметьте только те технологии и типы задач, с которыми вы хорошо знакомы. Отсутствие опыта отнюдь не означает, что у вас меньше шансов стать нашим сотрудником. Это означает, что вы будете получать те задачи, с которыми гарантировано будете справляться.</p>
-				<div
-				class="skills__col">
-					<div class="skills__row">
-						<input type="checkbox" id="skills-checkbox" checked class="checkbox">
-						<label for="skills-checkbox"></label>
-						<label for="skills-checkbox">Методология БЭМ</label>
-					</div>
-					<div class="skills__row">
-						<input type="checkbox" id="skills-checkbox1" checked class="checkbox">
-						<label for="skills-checkbox1"></label>
-						<label for="skills-checkbox1">jQuery</label>
-					</div>
-					<div class="skills__row">
-						<input type="checkbox" id="skills-checkbox2" checked class="checkbox">
-						<label for="skills-checkbox2"></label>
-						<label for="skills-checkbox2">Использую GRUNT</label>
-					</div>
-					<div class="skills__row">
-						<input type="checkbox" id="skills-checkbox3" class="checkbox">
-						<label for="skills-checkbox3"></label>
-						<label for="skills-checkbox3">HAML</label>
-					</div>
-					<div class="skills__row">
-						<input type="checkbox" id="skills-checkbox4" checked class="checkbox">
-						<label for="skills-checkbox4"></label>
-						<label for="skills-checkbox4">SASS</label>
-					</div>
-					<div class="skills__row">
-						<input type="checkbox" id="skills-checkbox5" class="checkbox">
-						<label for="skills-checkbox5"></label>
-						<label for="skills-checkbox5">LESS</label>
-					</div>
-					<div class="skills__row">
-						<input type="checkbox" id="skills-checkbox6" class="checkbox">
-						<label for="skills-checkbox6"></label>
-						<label for="skills-checkbox6">CoffeeScript</label>
-					</div>
-			</div>
-			<div class="skills__col">
-				<div class="skills__row">
-					<input type="checkbox" id="skills-checkbox7" checked class="checkbox">
-					<label for="skills-checkbox7"></label>
-					<label for="skills-checkbox7">Jade</label>
-				</div>
-				<div class="skills__row">
-					<input type="checkbox" id="skills-checkbox8" checked class="checkbox">
-					<label for="skills-checkbox8"></label>
-					<label for="skills-checkbox8">Stylus</label>
-				</div>
-				<div class="skills__row">
-					<input type="checkbox" id="skills-checkbox9" class="checkbox">
-					<label for="skills-checkbox9"></label>
-					<label for="skills-checkbox9">Знаю (изучаю) Angular</label>
-				</div>
-				<div class="skills__row">
-					<input type="checkbox" id="skills-checkbox10" class="checkbox">
-					<label for="skills-checkbox10"></label>
-					<label for="skills-checkbox10">Верстка под Android</label>
-				</div>
-				<div class="skills__row">
-					<input type="checkbox" id="skills-checkbox11" class="checkbox">
-					<label for="skills-checkbox11"></label>
-					<label for="skills-checkbox11">Верстка под iOS</label>
-				</div>
-				<div class="skills__row">
-					<input type="checkbox" id="skills-checkbox12" class="checkbox">
-					<label for="skills-checkbox12"></label>
-					<label for="skills-checkbox12">Верстка под Windows Phone</label>
-				</div>
-			</div>
-			<div class="skills__col skills__col__last">
-				<div class="skills__row">
-					<input type="checkbox" id="skills-checkbox13" class="checkbox">
-					<label for="skills-checkbox13"></label>
-					<label for="skills-checkbox13">Верстка рассылок</label>
-				</div>
-				<div class="skills__row">
-					<input type="checkbox" id="skills-checkbox14" checked class="checkbox">
-					<label for="skills-checkbox14"></label>
-					<label for="skills-checkbox14">Адаптивная верстка</label>
-				</div>
-				<div class="skills__row">
-					<input type="checkbox" id="skills-checkbox15" checked class="checkbox">
-					<label for="skills-checkbox15"></label>
-					<label for="skills-checkbox15">Использую Dropbox</label>
-				</div>
-				<div class="skills__row">
-					<input type="checkbox" id="skills-checkbox16" checked class="checkbox">
-					<label for="skills-checkbox16"></label>
-					<label for="skills-checkbox16">Использую Gmail</label>
-				</div>
-				<div class="skills__row">
-					<input type="checkbox" id="skills-checkbox17" checked class="checkbox">
-					<label for="skills-checkbox17"></label>
-					<label for="skills-checkbox17">Использую GitHub</label>
-				</div>
+		<div class="inbox">
+			<h1 class="inbox__title">Inbox<a href="javascript:void(0)"><i class="inbox__title_search"></i></a></h1>
+			<div id="inbox-scroll">
+				<ul>
+					<li class="inbox__message inbox__message_new">
+						<h2 class="inbox__message_date">#201405 - 042</h2>
+						<p class="inbox__message_theme">Lady Saliha</p>
+					</li>
+					<li class="inbox__message inbox__message_new inbox__message_mark inbox__message_active">
+						<h2 class="inbox__message_date">#201405 - 039</h2>
+						<p class="inbox__message_theme">Emma Maersk</p>
+					</li>
+					<li class="inbox__message inbox__message_new">
+						<h2 class="inbox__message_date">#201405 - 025</h2>
+						<p class="inbox__message_theme">CSAL Mercury</p>
+					</li>
+					<li class="inbox__message inbox__message_new inbox__message_mark">
+						<h2 class="inbox__message_date">#201405 - 017</h2>
+						<p class="inbox__message_theme">Blowjob CO</p>
+					</li>
+					<li class="inbox__message inbox__message_new">
+						<h2 class="inbox__message_date">#201405 - 010</h2>
+						<p class="inbox__message_theme">COSCO Hope</p>
+					</li>
+					<li class="inbox__message">
+						<h2 class="inbox__message_date">#201405 - 007</h2>
+						<p class="inbox__message_theme">Hanjin Harmony</p>
+					</li>
+					<li class="inbox__message">
+						<h2 class="inbox__message_date">#201404 - 145</h2>
+						<p class="inbox__message_theme">Ain Snan</p>
+					</li>
+					<li class="inbox__message">
+						<h2 class="inbox__message_date">#201405 - 137</h2>
+						<p class="inbox__message_theme">Lappah Sattuh</p>
+					</li>
+					<li class="inbox__message inbox__message_new">
+						<h2 class="inbox__message_date">#201405 - 124</h2>
+						<p class="inbox__message_theme">Lady Saliha</p>
+					</li>
+					<li class="inbox__message">
+						<h2 class="inbox__message_date">#201405 - 121</h2>
+						<p class="inbox__message_theme">Untitled</p>
+					</li>
+					<li class="inbox__message">
+						<h2 class="inbox__message_date">#201405 - 112</h2>
+						<p class="inbox__message_theme">Coca-Cola CO</p>
+					</li>
+					<li class="inbox__message inbox__message_new">
+						<h2 class="inbox__message_date">#201405 - 110</h2>
+						<p class="inbox__message_theme">Front-end order</p>
+					</li>
+					<li class="inbox__message">
+						<h2 class="inbox__message_date">#201405 - 107</h2>
+						<p class="inbox__message_theme">Untitled</p>
+					</li>
+					<li class="inbox__message">
+						<h2 class="inbox__message_date">#201405 - 99</h2>
+						<p class="inbox__message_theme">Coca-Cola CO</p>
+					</li>
+					<li class="inbox__message">
+						<h2 class="inbox__message_date">#201405 - 99</h2>
+						<p class="inbox__message_theme">Coca-Cola CO</p>
+					</li>
+					<li class="inbox__message">
+						<h2 class="inbox__message_date">#201405 - 99</h2>
+						<p class="inbox__message_theme">Coca-Cola CO</p>
+					</li>
+					<li class="inbox__message">
+						<h2 class="inbox__message_date">#201405 - 99</h2>
+						<p class="inbox__message_theme">Coca-Cola CO</p>
+					</li>
+				</ul>
 			</div>
 		</div>
-		<div class="clearfix"></div>
-		<div class="slider">
-			<h3 class="slider__title">Уровень владения JavaScript</h3>
-			<div id="slider"></div>
-			<div class="slider__borders">
-				<div class="slider__borders__inner"></div>
+		<div class="content">
+			<div class="content-scroll">
+				<div class="content-head">
+					<img src="assets/images/user-photo.png" class="content-head__photo">
+					<h3 class="content-head__title">Created by <span> Nancy Alexander</span> on <span>Feb 05, 2014</span></h3>
+					<div class="content-head__settings-button"><i class="fa-cog content-head__settings-button_icon"></i>
+					</div>
+					<div class="content-head__complete-button">
+						<h3 class="content-head__complete-button_title">Complete Work Order</h3>
+					</div>
+				</div>
+				<div class="content-wrapper">
+					<h2 class="content-wrapper__title">Work Order Details</h2>
+					<table class="content-wrapper__table">
+						<tr>
+							<td class="content-wrapper__table__cell_narrow">
+								<h3 class="content-wrapper__table__title">refference #</h3>
+								<p class="content-wrapper__table__text">#201405 - 039</p>
+							</td>
+							<td class="content-wrapper__table__cell_normal">
+								<h3 class="content-wrapper__table__title">Ship name</h3>
+								<p class="content-wrapper__table__text">Emma Maersk</p>
+							</td>
+							<td class="content-wrapper__table__cell_normal">
+								<h3 class="content-wrapper__table__title">Ship owner</h3>
+								<p class="content-wrapper__table__text">Deval Transport</p>
+							</td>
+						</tr>
+					</table>
+					<table class="content-wrapper__table">
+						<tr>
+							<td class="content-wrapper__table__cell_narrow">
+								<h3 class="content-wrapper__table__title">port</h3>
+								<p class="content-wrapper__table__text">Dakar, Senegal</p>
+							</td>
+							<td class="content-wrapper__table__cell_normal">
+								<h3 class="content-wrapper__table__title">Estimated time of arrival</h3>
+								<p class="content-wrapper__table__text">Feb 18, 2014 - 14:15</p>
+							</td>
+							<td class="content-wrapper__table__cell_normal">
+								<h3 class="content-wrapper__table__title">Estimated time of delivery</h3>
+								<p class="content-wrapper__table__text">Feb 20, 2014 - 14:00</p>
+							</td>
+						</tr>
+					</table>
+					<table class="content-wrapper__table">
+						<tr>
+							<td class="content-wrapper__table__cell_certificates">
+								<h3 class="content-wrapper__table__title">Certificates</h3>
+								<p class="content-wrapper__table__text">Lifeboat Davit <span>(1 year)</span><i class="content-wrapper__table__icon fa-check-circle-o content-wrapper__table__icon_accept"></i>
+								</p>
+								<p class="content-wrapper__table__text">Lifeboat Davit <span>(1 year)</span><i class="content-wrapper__table__icon fa-times-circle-o content-wrapper__table__icon_cancel"></i>
+								</p>
+								<p class="content-wrapper__table__text">LSA <span>(1 year)</span>
+								</p>
+							</td>
+							<td class="content-wrapper__table__cell">
+								<h3 class="content-wrapper__table__title">Extras</h3>
+								<p class="content-wrapper__table__text">-</p>
+							</td>
+						</tr>
+					</table>
+					<h2 class="content-wrapper__title">Primary contact information</h2>
+					<img alt="profile photo" width="130px" src="assets/images/profile-photo.png" class="content-wrapper__profile-photo">
+					<table>
+						<tr>
+							<td>
+								<h3 class="content-wrapper__profile-title">name</h3>
+							</td>
+							<td>
+								<p class="content-wrapper__profile-text">Elisabeth Ilsner</p>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<h3 class="content-wrapper__profile-title">phone</h3>
+							</td>
+							<td>
+								<p class="content-wrapper__profile-text">+7 (584) 564 - 34 -44 #1208</p>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<h3 class="content-wrapper__profile-title">gsm</h3>
+							</td>
+							<td>
+								<p class="content-wrapper__profile-text">+7 (584) 564 34 44</p>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<h3 class="content-wrapper__profile-title">email</h3>
+							</td>
+							<td>
+								<p class="content-wrapper__profile-text">Elisabeth.Ilsner@gmail.com</p>
+							</td>
+						</tr>
+					</table>
+				</div>
 			</div>
-			<h4 class="slider__text slider__text__noob">Не владею</h4>
-			<h4 class="slider__text slider__text__medium">Использую готовые решения</h4>
-			<h4 class="slider__text slider__text__hard">Использую готовые решения и умею их переделывать</h4>
-			<h4 class="slider__text slider__text__pro">Пишу сложные скрипты</h4>
-		</div>
-		<div class="clearfix"></div>
-		<div class="date">
-			<h3 class="date__title">Дата заполнения</h3>
-			<p class="date__number">30.10.2014</p>
-		</div>
 		</div>
 	</section>
 	<script src="assets/scripts/libs/jquery-2.1.1.min.js"></script>
-	<script src="assets/scripts/libs/jquery-ui.js"></script>
 	<script src="assets/scripts/common.js"></script>
+	<script src="assets/scripts/libs/jquery.mousewheel.min.js"></script>
 </body>
